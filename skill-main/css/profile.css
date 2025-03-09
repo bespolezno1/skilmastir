@@ -1,0 +1,122 @@
+.profile1 {
+    position: absolute; /* Относительно body */
+    width: 486px;
+    height: 340px;
+    top: 205px;
+    left: 50%;
+    transform: translateX(-50%); /* Центрируем по горизонтали */
+    border-radius: 21px;
+    border: 1.42px solid #8529CE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infok{
+    position: absolute;
+    width: 59px;
+    height: 31px;
+    top: 63px;
+    left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #5D1993
+
+
+}
+.inf{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    top: 104px;
+    left: 24px;
+    font-size: 19px;
+    
+}
+.inf-1{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    left: 24px;
+    top: 138px;
+    font-size: 19px;
+
+}
+.friends{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 183px;
+    left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;   
+    font-size: 19px;
+    color: #5D1993;
+}
+.button-fr {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    top: 50px;
+    background-color: #FFFFFF;
+    
+   
+
+}
+.add-friend{
+    width: 334px;
+    height: 67px;
+    background-color: #FFFFFF;
+    border: 1.42px solid #8529CE;
+    border-radius: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    color: #8529CE;
+    font-size: 22.69px;
+    left: 302px;
+}
+.download{
+    width: 100px;
+    height: 67px;
+    background-color: #FFFFFF;
+    border: 1.42px solid #8529CE;
+    border-radius: 21px;
+}
+.profile{
+    
+}
+.ava {
+    width: 225px;
+    height: 215px;
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: calc(100% - 1214px); /* Чтобы учесть отступы */
+    z-index: 1;
+}
+.add{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: flex;
+    top: 350%;
+    left: 18px;
+    z-index: 1;
+}
+.column1 {
+    background-color: #ffffff;
+    width:  370px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+    border-right: 2px solid #8529CE; /* Добавляем рамку для видимости */
+    height: 100vh;
+    align-items: center;
+}
+.side-button-1-wr{
+    left: 1450px;
+    position: fixed;
+}

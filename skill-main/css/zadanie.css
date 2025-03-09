@@ -1,0 +1,74 @@
+.zadanie {
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 535px;
+    height: 535px;
+    position: absolute;  /* Позволяет позиционировать дочерние элементы */
+    background-color: #ffffff;  /* Цвет фона контейнера */
+    display: flex;
+    flex-direction: column;
+    top: 31px;
+}
+
+.header {
+    width: 535px;
+    height: 96px;
+    background-color: #ffffff;  /* Цвет фона плашки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    
+    text-align: center;
+}
+
+.image-container {
+    width: 535px;
+    height: 425px;
+    margin-top: 16px;  /* Отступ сверху между плашкой и картинкой */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.image {
+    width: 425px;
+    height: 425px;
+    object-fit: cover;  /* Сохраняет пропорции картинки */
+    border-radius: 25px;
+}
+.container-bottom {
+    left: 50%;
+    top: 600px;
+    transform: translateX(-50%); 
+    position: absolute;
+    width: 312px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between; /* Размещаем картинки по краям */
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона контейнера */
+    padding: 0 10px; /* Отступы по бокам */
+}
+
+.clickable-image {
+    width: 95px;
+    height: 95px;
+    object-fit: cover; /* Сохраняем пропорции изображения */
+    border-radius: 10px; /* Закругленные углы для картинок */
+    cursor: pointer; /* Показываем курсор, что элемент кликабельный */
+    transition: transform 0.3s ease; /* Плавный эффект при наведении */
+}
+
+.clickable-image:hover {
+    transform: scale(1.1); /* Увеличиваем картинку при наведении */
+}

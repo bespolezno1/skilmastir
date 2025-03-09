@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три колонки</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/srift.css">
+    <link rel="stylesheet" href="css/vadvig.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/testing.css">
+    <link rel="stylesheet" href="css/zadanie.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="column1">
+        <p class="logo">
+            <img src="img/svg/skillmastersmall.svg" alt="lohs">
+        </p>
+        <p class="button_stile">
+            <button class="test" onclick="showContent('testing')">ТЕСТИРОВАНИЕ</button>
+            <button class="test" onclick="showContent('sections')">РАЗДЕЛЫ</button>
+            <button class="test" onclick="showContent('rating')">РЕЙТИНГ</button>
+            <button class="test" onclick="showContent('shop')">МАГАЗИН</button>
+            <button class="test" onclick="showContent('profile')">ПРОФИЛЬ</button>
+            <button class="test" onclick="showContent('more')">ЕЩЕ</button>
+        </p>
+        
+    </div>
+    <div class="column2">
+
+        <div id="testing" class="content-container testing-content">
+            <p class="info">Здесь вы можете пройти тестирования, которые помогут лучше определить  программу и прогресс вашего обучения</p>
+            <button class="begginer">
+                <div class="pink">
+                    <p class="text_pink">Начальное тестирование</p>
+                    <div class="white">
+                        <div class="text_pink1">ПРОВЕРКА УРОВНЯ НАЧАЛЬНЫХ НАВЫКОВ</div>
+                        <div class="dopinfo">
+                            <p class="oval">33 ВОПРОСА</p>
+                            <p class="oval">МАКСИМУМ БАЛЛОВ 165</p>
+                        </div>
+                    </div>
+                </div>
+            </button>
+            <button class="finaltest">
+                <div class="pink">
+                <p class="text_pink">ФИНАЛЬНОЕ ТЕСТИРОВАНИЕ</p>
+                <div class="white">
+                    <div class="text_pink1">ПРОВЕРКА ПРОКАЧЕННЫХ НАВЫКОВ</div>
+                    <div class="dopinfo">
+                        <p class="oval">33 ВОПРОСА</p>
+                        <p class="oval">МАКСИМУМ БАЛЛОВ 165</p>
+                    </div>
+                </div>
+            </div>
+            </button>
+        </div>
+
+
+        <div id="sections" class="content-container default-content">
+            Контент разделов
+        </div>
+
+        <div id="rating" class="content-container default-content">
+            Рейтинг пользователей
+        </div>
+
+        <div id="shop" class="content-container default-content">
+            <div class="zadanie">
+                <div class="header">
+                    <p class="header-text">Я найду тебя и разобью ебальник. Готовь сраку, мы едем тебя бить публично через час.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://avatars.mds.yandex.net/i?id=8e51c66a5741920b071e6754a7f5f34c0b65c1a5-5660351-images-thumbs&n=13" alt="Image" class="image">
+                </div>
+            </div>
+            <div class="container-bottom">
+                <img src="img/svg/neverno.svg" alt="Image 1" class="clickable-image" onclick="handleClick('image1')">
+                <img src="img/svg/verno.svg" alt="Image 2" class="clickable-image" onclick="handleClick('image2')">
+            </div>
+        </div>
+
+        <div id="profile" class="content-container default-content">
+            <p class="ava">
+                <img src="img/svg/Frame 124.png" alt="">
+            </p>
+           
+            <div class="profile1">
+                
+                 <h1 class="infok">Имя</h1>
+                 <p1 class="inf">Ник</p1>
+                 <p2 class="inf-1">Дата регистрации</p2>
+                 <div class="friends">
+                    <h1 class="friend">20 друзей</h1>
+                    <h2 class="friend">5 заявок</h2>
+                    <div class="add">
+                        <img src="img/svg/fluent-mdl2_add-friend.svg" alt="">
+                    </div>
+                    
+                    <div class="button-fr">
+                        <button class="add-friend">Добавить друзей</button>
+                        <button class="download">
+                            
+                        </button>
+                    </div>
+                 </div>
+
+
+        </div>
+
+        <div id="more" class="content-container default-content">
+            ЕЩЕфцвфвф
+        </div>
+
+
+
+       
+    </div>
+    
+        <input type="checkbox" id="side-checkbox" />
+        <div class="side-panel">
+            <label class="side-button-2" for="side-checkbox">+</label>    
+            <div class="side-title">
+                <div class="haracter">
+                    <div class="money">
+                        <p><img src="img/svg/ph_coin-light.svg" alt=""></p>
+                        <p class="textpanel">100</p>
+                    </div>
+                    <div class="money">
+                        <p><img src="img/svg/ant-design_fire-filled.svg" alt=""></p>
+                        <p class="textpanel">100</p>
+                    </div>
+                    <div class="money">
+                        <p><img src="img/svg/material-symbols_favorite.svg" alt=""></p>
+                        <p class="textpanel">100</p>
+                    </div>
+                </div>
+            </div>
+            <p>
+                <iframe src="suppchat.html" frameborder="0" class="supp"></iframe>
+            </p>
+            <p>
+                <iframe src="suppchat.html" frameborder="0" class="supp"></iframe>
+            </p>
+            <p>
+                <iframe src="suppchat.html" frameborder="0" class="supp"></iframe>
+            </p>
+        </div>
+        <div class="side-button-1-wr">
+            <label class="side-button-1" for="side-checkbox">
+            <div class="side-b side-open">Открыть</div>
+            <div class="side-b side-close">Закрыть</div>
+            </label>
+        </div>
+    
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>

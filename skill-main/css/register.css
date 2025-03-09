@@ -1,0 +1,243 @@
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+.register{
+/* кнопки */
+box-sizing: border-box;
+
+/* Auto layout */
+color: #8529CE;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 10px;
+
+position: absolute;
+width: 251px;
+height: 62px;
+left: 1109px;
+top: 40px;
+
+/* фиол */
+border: 1px solid #8529CE;
+border-radius: 15px;
+
+}
+
+.button_register{
+
+/* Регистрация */
+margin-bottom: 10px;
+width: 200px;
+height: 17px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+
+/* фиол */
+color: #8529CE;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none
+
+
+}
+
+
+
+.pole_vhoda{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 60px;
+
+position: absolute;
+width: 491px;
+height: 466px;
+left: calc(50% - 491px/2 + 0.5px);
+top: calc(50% - 466px/2 - 0.5px);
+
+
+}
+
+.title_vhod{
+    /* Вход */
+
+/* Регистрация */
+
+width: 254px;
+height: 44px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: justify;
+
+/* роз */
+color: #E66385;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+
+.form_vhod{
+/* регистрация компоненты */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+gap: 10px;
+
+width: 497px;
+height: 76px;
+
+background: rgba(231, 60, 104, 0.2);
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-bottom: 24px;
+}
+::placeholder{
+    /* Имя */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.5);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+.voiti{
+    /* кнопки */
+
+    
+
+/* Зарегистрироваться */
+
+/* Зарегистрироваться */
+
+width: 267px;
+height: 17px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* кнопки */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 10px;
+
+width: 497px;
+height: 62px;
+
+/* роз */
+background: #E66385;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+margin-bottom: 60px;
+text-decoration: none
+
+}
+
+
+.vostan{
+    display: flex;
+    align-items: center;
+}
